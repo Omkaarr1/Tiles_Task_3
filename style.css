@@ -1,0 +1,185 @@
+
+.title-image {
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  max-width: 100%;
+  }
+  
+  .container-fluid{
+    padding: 0% 0%
+  }
+  
+  .navbar-brand{
+  padding-left: 5%;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bold;
+  }
+  
+  body {
+  
+  background-image: url("music photo.jpg");
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  max-width: 100%;
+  background-color: black;
+  }
+  
+  .container{
+  
+    display: flex;
+    align-items: center;
+    margin:  7%;
+    margin-top: none;
+    justify-content:center ;
+  }
+  
+  .search-bar{
+    height: 50px;
+    width: 100%;
+    max-width: 650px;
+    position: absolute;
+    top: 25%;
+    left: 425px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 1px;
+    border: 2px solid white;
+  }
+  
+  .search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+  
+  }
+  
+  ::placeholder{
+    color:white;
+    font-weight: 300;
+    text-align: center;
+    padding-left: 25%;
+  }
+  
+  
+  .navbar-brand{
+    font-family: Montserrat;
+    position: relative;
+  }
+  
+  #input-btn,
+  #input-btn *,
+  #input-btn :after,
+  #input-btn :before,
+  #input-btn:after,
+  #input-btn:before {
+    border: 1px solid;
+    box-sizing: border-box;
+  }
+  
+  #input-btn {
+ 
+    -webkit-appearance: button;
+    background-color: black;
+    background-image: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+      Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+      Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 100%;
+    line-height: 0.5;
+    margin: 0;
+
+    padding:0;
+    margin-top:0;
+  }
+  
+  #input-btn:disabled {
+    cursor: default;
+  }
+  
+  #input-btn:-moz-focusring {
+    outline: auto;
+  }
+  
+  #input-btn svg {
+    display: block;
+  
+  }
+  
+  #input-btn [hidden] {
+    display: none;
+  }
+  
+  #input-btn {
+    border: 1px solid;
+    border-radius: 999px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-weight: 900;
+   
+    overflow: hidden;
+    padding: 1.2rem 3rem;
+    position: relative;
+    text-transform: uppercase;
+  }
+  
+  #input-btn:hover {
+    -webkit-animation: pulse 0.5s;
+    animation: pulse 0.5s;
+    box-shadow: 0 0 0 2em transparent;
+  }
+  
+  @-webkit-keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 #fff;
+    }
+  }
+  
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 #fff;
+    }
+  }
+  
+  #myTable{
+  
+    color: transparent;
+    border-collapse: collapse;
+  
+    box-sizing: border-box;
+  
+   background: transparent;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  margin-bottom: 90px;
+  padding-bottom: 90px;
+  
+   }
+  .tile{
+    width: 100px;
+    height: 80px;
+    padding: 30px;
+    border: 1px solid black;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
+    border-color: white;
+    margin: 1px;
+  }
+  .tile:hover {
+    transition: 0.6s ease-in-out;
+    background-color: white;
+  }
